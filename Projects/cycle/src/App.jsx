@@ -1,20 +1,13 @@
-import { CartProvider } from "./context/CartContext"
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
-import Home from "./pages/Home"
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <CartProvider>
-      <div className="min-h-screen flex flex-col">
-        <Navbar />
-        <main className="flex-1">
-          <Home />
-        </main>
-        <Footer />
-      </div>
-    </CartProvider>
-  )
+    <>
+      <Navbar />
+      <Hero />
+      <Footer />
+    </>
+  );
 }
-
-export default App
