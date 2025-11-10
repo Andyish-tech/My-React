@@ -1,3 +1,4 @@
+
 export default function Footer() {
   return (
     <footer className="bg-[#2b4b54] text-white pt-10">
@@ -13,7 +14,7 @@ export default function Footer() {
 
         {/* Contact + Newsletter */}
         <div className="space-y-7 ml-50">
-          <p>📍 Page when looking at its layout</p>
+          <p>Page when looking at its layout</p>
           <p>📞 Call Now +01 123467890</p>
           <p>📧 demo@gmail.com</p>
 
