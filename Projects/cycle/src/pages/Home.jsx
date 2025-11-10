@@ -1,6 +1,8 @@
 import Hero from "../components/Hero"
-import OurCycle from "../components/OurCycle"
-import ProductShowcase from "../components/ProductShowcase"
+import ProductSection from "../components/ProductSection"
+import About from "../components/About"
+import Testimonial from "../components/Testimonial"
+import News from "../components/News"
 
 const Home = () => {
   const products = [
@@ -27,10 +29,10 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <OurCycle />
-      {products.map((product, index) => (
-        <ProductShowcase key={product.id} product={product} reverse={index % 2 !== 0} />
-      ))}
+      <ProductSection/>
+      <About/>
+      <Testimonial />
+      <News />
     </div>
   )
 }
