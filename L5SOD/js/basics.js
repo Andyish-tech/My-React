@@ -58,3 +58,39 @@ let user={
 
 console.log(user.info())
 
+    const fullname = 'Ishimwe Andy'
+        
+      let myPar=document.getElementById('paragraph')
+      let btn=document.querySelector('button.click_me')
+      btn.addEventListener('click', changeButtonColor)
+      myPar.innerHTML= ` <h1> ${fullname} </h1>`
+
+      function changeButtonColor (){
+        
+        
+            myPar.classList.toggle('change-color')
+
+        
+      }
+
+      myPar.classList.add('ssdsdsd')
+
+      
+      
+      // 4 with different class changes
+      let card=document.querySelector(".card")
+
+      function changeGreen(){
+        card.className='change-green'
+      }
+
+      function changeRed(){
+        card.className='change-Red'
+      }
+
+      function changeBlue(){
+        card.className='change-Blue'
+      }
+      function changeYellow(){
+        card.className='change-Yellow'
+      }

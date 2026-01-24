@@ -4,22 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .change-color{
+            background-color: red;
+        }
+
+        .card{
+            padding: 50px;
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+        }
+        .change-green{
+            padding: 50px;
+            width: 150px;
+            height: 150px;
+            background-color: green;
+        }
+        .change-Red{
+            padding: 50px;
+            width: 150px;
+            height: 150px;
+            background-color: red;
+        }
+
+        .change-Blue{
+            padding: 50px;
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+        }
+        .change-Yellow{
+            padding: 50px;
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
 
-    <p id="paragraph">sdsdslsdlsdlsdlsd</p>
+    <p id="paragraph" class="change-color" >sdsdslsdlsdlsdlsd</p>
+    <button class="click_me">click me</button>
 
-  
+    <div class="card">
+        <h1>Hello</h1>
+        <p>Javascript</p>
+    </div>
+    <div >
+        <button class="Red" onclick="changeRed()">Red</button>
+        <button class="Green" onclick="changeGreen()">Green</button>
+        <button class="Yellow" onclick="changeYellow()">Yellow</button>
+        <button class="Blue" onclick="changeGreen()">blue</button>
+    </div>
     <script src="basics.js"></script>
-    <script>
-    const fullname = 'Ishimwe Andy'
-        
-      let myPar=document.querySelector('#paragraph')
-      myPar.innerHTML= ` <h1> ${fullname} </h1>`
-
-      myPar.classList.add('ssdsdsd')
-      console.log(myPar.classList('ssdsdsd'))
-    
-    </script>
 </body>
 </html>
