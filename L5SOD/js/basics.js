@@ -57,3 +57,4 @@ let user={
 }
 
 console.log(user.info())
+
