@@ -39,9 +39,21 @@ function login(email, Password){
  // for with arrays
 let myarr=[1,3,5,6,9]
 let total=0;
+
 for(i of myarr){
     total= total + i
     console.log(`${i} = ${total} `)
 }
 
+let user={
+    name:"Kw",
+    age:14,
+    
+    info:function(){
+        myInfo= `My name is ${this.name} and am aged ${this.age}`
+        console.log(myInfo)
+    }
 
+}
+
+console.log(user.info())
