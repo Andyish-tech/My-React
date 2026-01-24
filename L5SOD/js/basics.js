@@ -35,6 +35,12 @@ function login(email, Password){
     console.log(`${mult} x ${i} = ${result}`);
 }
  }
-multTable(6)
+
+ // for with arrays
+myarr=[1,3,5,6,9]
+for(i of myarr){
+    i=i
+    console.log(i)
+}
 
 
