@@ -37,9 +37,10 @@ function login(email, Password){
  }
 
  // for with arrays
-myarr=[1,3,5,6,9]
+let myarr=[1,3,5,6,9]
+let total=0;
 for(i of myarr){
-    i=i
+    
     console.log(i)
 }
 
