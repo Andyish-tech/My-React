@@ -40,8 +40,8 @@ function login(email, Password){
 let myarr=[1,3,5,6,9]
 let total=0;
 for(i of myarr){
-    
-    console.log(i)
+    total= total + i
+    console.log(`${i} = ${total} `)
 }
 
 
