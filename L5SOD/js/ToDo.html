@@ -12,14 +12,25 @@
     }
 </style>
 <body>
-    <script>
-        
-    </script>
+    
     <div class="container">
         <h1>To do list</h1>
-        <input type="text">
-        <button>Add task</button>
+        <input id="inputTask" type="text">
+        <button onclick="AddTask()">Add task</button>
         <h2>Tasks</h2>
-    </div>    
+        <ul id="myTasks">
+
+        </ul>
+    </div>   
+    <script>
+        let input=document.querySelector('#inputTask');
+        let task=document.querySelector('#myTasks');
+        function AddTask(){
+            let Todo= input.value;
+            task.innerHTML += `<li>${Todo}</li>`
+        }
+
+    </script> 
+    
 </body>
 </html>
