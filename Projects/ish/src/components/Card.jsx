@@ -1,10 +1,17 @@
 import React from 'react';
-
 function Card() {
+    const greet=()=>{
+        console.log("Hello")
+    }
     return (
-        <div style={{backgroundColor: "whitesmoke", padding: 10, width:120, height:50 }}>
+        <div className='Card'>
             <p >This is paragraph</p>
+            <button onClick={function (){
+                console.log('You Clicked A Button')
+            }}>Click me</button>
+            <button onClick={greet}>Allow fun</button>
         </div>
+        
     );
 }
 

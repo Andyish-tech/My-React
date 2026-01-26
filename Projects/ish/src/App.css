@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.Card{
+  background-color:whitesmoke;
+  padding: 40px;
+  border-radius: 3;
+  width:320px;
+  height:150px;
+}
+
+.Card button{
+  padding: 10px;
+  background-color: blueviolet;
+  gap: 20px;
+}
+
+.container{
+  background-color: rgb(208, 178, 236);
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
