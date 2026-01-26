@@ -8,8 +8,9 @@ function App() {
     <>
       <div className='container'>
         {/* <HOME /> */}
-      <Card>
-      </Card>
+      <Card title="Hey" description="Am happy to day" button1="Follow" > </Card>
+      <Card title="Hey" description="Am happy to day" button1="Click Me" button2="Follow" btndisplay={true}> </Card>
+      <Card title="Hey" description="Am happy to day" button1="Follow" btndisplay={true}> </Card>
       <Button />
       </div>
     </>

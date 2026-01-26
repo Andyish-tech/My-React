@@ -1,15 +1,23 @@
 import React from 'react';
-function Card() {
+function Card({title, description, button1, button2, btndisplay}) {
     const greet=()=>{
         console.log("Hello")
     }
+
     return (
         <div className='Card'>
-            <p >This is paragraph</p>
-            <button onClick={function (){
+            <h2>{title}</h2>
+            <p >{description}</p>
+            {
+                btndisplay &&(
+                    <>
+                    <button onClick={function (){
                 console.log('You Clicked A Button')
-            }}>Click me</button>
-            <button onClick={greet}>Allow fun</button>
+            }}>{button1}</button>
+            <button onClick={greet}>{button2}</button>
+                    </>
+                )
+            }
         </div>
         
     );

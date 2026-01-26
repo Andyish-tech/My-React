@@ -13,13 +13,13 @@
 button{
   padding: 10px;
   background-color: rgb(140, 117, 225);
-  gap: 20px;
 }
 
 .container{
   background-color: rgb(208, 178, 236);
   padding: 20px;
   height: 100vh;
+  gap: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
