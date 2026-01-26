@@ -7,7 +7,8 @@ function App() {
   return (
     <>
       <HOME />
-      <Card></Card>
+      <Card>
+      </Card>
     </>
   )
 }
