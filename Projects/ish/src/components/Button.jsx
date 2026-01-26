@@ -17,6 +17,7 @@ const Button=()=>{
     const Clear=()=>{
         setVal(0)
     }
+    const array=[1,2,3,4,5,6,7,8,9]
     return(
         <>
         <button onClick={MyName}>
@@ -30,6 +31,11 @@ const Button=()=>{
             <button onClick={Dencrement}>Decrement</button>
             <button onClick={Clear}>Clear</button>
 
+        </div>
+        <div className="Card">
+            {
+                array.map(num=>(<p>Let count:{num}</p>))
+            }
         </div>
         </>
     )
