@@ -10,9 +10,9 @@
   height:150px;
 }
 
-.Card button{
+button{
   padding: 10px;
-  background-color: blueviolet;
+  background-color: rgb(140, 117, 225);
   gap: 20px;
 }
 
