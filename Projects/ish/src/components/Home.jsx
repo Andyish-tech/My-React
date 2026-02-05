@@ -2,7 +2,6 @@ import React from 'react';
 
 function HOME() {
     const name='Ishimwe';
-    const Name2= 'Andy';
     return (
         
         <div>

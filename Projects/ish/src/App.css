@@ -20,8 +20,21 @@ button{
   padding: 20px;
   height: 100vh;
   gap: 10px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: inherit;
   justify-content: center;
   align-items: center;
+}
+
+.obj{
+  padding: 20px;
+  height: 100vh;
+  gap: 10px;
+  display: grid;
+  grid-column: inherit;
+  justify-content: center;
+  align-items: center;
+}
+.obj .Card{
+  background-color: yellowgreen;
 }
