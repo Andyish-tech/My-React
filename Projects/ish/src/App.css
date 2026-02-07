@@ -38,3 +38,7 @@ button{
 .obj .Card{
   background-color: yellowgreen;
 }
+
+.Error{
+  color: red;
+}

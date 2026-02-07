@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from './Card';
 
 export default function Obj() {
@@ -33,6 +33,12 @@ export default function Obj() {
       button1:"Buy me"
     }
   ]
+
+  {/* Fetching from api */}
+
+  
+
+
   return (
     <div className='obj'>
             {Name.map(name =>(
@@ -44,6 +50,10 @@ export default function Obj() {
             <Card title={books.title} description={books.description} button1={books.button1} button2="Follow" btndisplay={true}> </Card>
           ))
         }
+
+            
+
+        
     </div>
 
   )
