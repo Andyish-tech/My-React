@@ -1,0 +1,59 @@
+.Container{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input input{
+    height: 50px;
+    width: 550px;
+    border:solid 2px rgb(232, 232, 232);
+    border-radius: 10px;
+    font-size: large;
+    padding-left: 15px;
+}
+.input button{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.684);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px ;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.input h1{
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.tasks{
+    height: 70px;
+    width: 680px;
+    display: flex;
+    gap: 270px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    border: solid 2px rgb(232, 232, 232);
+    border-radius: 15px;
+
+}
+.tasks button{
+    width: 50px;
+    margin-left: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: rgba(196, 3, 3, 0.444);
+    font-weight: bold;
+}
+.tasks button:hover{
+    text-decoration: underline rgba(0, 0, 255, 0.684);
+}
+.tasks input{
+    padding: 50px;
+}
