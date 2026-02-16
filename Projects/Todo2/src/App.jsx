@@ -22,7 +22,8 @@ export default function App() {
   }
 
   function chec(id){
-    const newtask
+    const newTask= [...tasks].map(t=> t.id ==id ? {...t, checked:!t.checked} : t)
+    setTask(newTask)
   }
   return (
     <div className='Container'>
@@ -34,7 +35,7 @@ export default function App() {
         tasks.map(task => (
         <div className="tasks">
         <div className="task-chec">
-          <input type="checkbox" />
+          <input type="checkbox" onChange={()=> chec(task.id)} checked={task.checked}/>
           <p>{task.name}</p>
         </div>
         <button onClick={()=> Delete(task.id)} >Delete</button>
