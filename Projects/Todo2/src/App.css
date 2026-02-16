@@ -32,19 +32,23 @@
 
 .tasks{
     height: 70px;
-    width: 680px;
+    padding-left: 20px;
+    width: 660px;
     display: flex;
-    gap: 270px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 40px;
     border: solid 2px rgb(232, 232, 232);
     border-radius: 15px;
 
 }
+.tasks .task-chec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
 .tasks button{
-    width: 50px;
-    margin-left: 15px;
     background-color: transparent;
     border: none;
     font-size: 18px;
@@ -53,7 +57,4 @@
 }
 .tasks button:hover{
     text-decoration: underline rgba(0, 0, 255, 0.684);
-}
-.tasks input{
-    padding: 50px;
 }
