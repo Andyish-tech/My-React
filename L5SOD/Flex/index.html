@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        display: flex;
+        gap: 100px;
+        justify-content: space-evenly;
+        border-bottom: solid 1.5px rgba(158, 90, 221, 0.684);
+    }
+    nav h2{
+        color: rgb(158, 90, 221);
+    }
+    nav button{
+        background-color: rgb(158, 90, 221);
+        height: 50px;
+        width: 70px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .links a{
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+    }
+    .container{
+        margin-top: 30px;
+        display: flex;
+        height: 100vh;
+        flex-direction:row;
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container .box1{
+        padding: 70px;
+        flex: 4;
+        background-color: rgb(158, 90, 221);
+    }
+    .container .box2{
+        padding: 70px;
+        flex: 2;
+        background-color: rgba(158, 90, 221, 0.679);
+    }
+    .container .box3{
+        padding: 70px;
+        background-color: rgba(158, 90, 221, 0.393);
+    }
+</style>
+<body>
+    <nav>
+        <div><h2>Logo</h2></div>
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">Home</a>
+            <a href="">Home</a>
+            <a href="">Home</a>
+        </div>
+        <button>Here</button>
+    </nav>
+    <div class="container">
+        <div class="box1">Box 1</div>        
+        <div class="box2">Box 2</div>        
+        <div class="box3">Box 3</div>        
+             
+    </div>
+</body>
+</html>
